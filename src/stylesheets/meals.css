@@ -1,0 +1,115 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* COLORS
+
+Main - #e67e22
+Accent -
+Grey - #343a40  #495057
+Tints - #fff2e8
+Shades - #cf711f
+
+*/
+
+/* MEALS SECTION STYLING */
+
+.meal-section {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .meal-card-1,
+  .meal-card-2 {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 27.2rem;
+    margin-bottom: 5rem;
+    box-shadow: 0.6rem 0.6rem 1rem 0.4rem rgba(0, 0, 0, 0.05);
+  }
+  
+  .meal-card-1:hover,
+  .meal-card-2:hover {
+    transform: translateY(-1.6rem);
+    transition: all 0.4s;
+  }
+  .meal-img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .m-heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 1.8rem;
+  }
+  .m-sec-heading {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #495057;
+    line-height: 1.5;
+  }
+  .hash-tags {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #343a40;
+    border-radius: 2rem;
+    padding: 0.4rem 0.8rem;
+    margin: 2.4rem 0 1rem 0;
+  }
+  .vegeterian {
+    background-color: #40c057;
+  }
+  .vegan {
+    background-color: #82c91e;
+  }
+  .paleo {
+    background-color: #ffd43b;
+  }
+  .meal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-bottom: 2.8rem;
+  }
+  .m-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    color: #e67e22;
+    margin-right: 0.8rem;
+  }
+  .content-box {
+    padding: 0 2rem 1.2rem 2.8rem;
+  }
+  .m-list-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 1.8rem;
+  }
+  .m-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .reciepe-link {
+    display: block;
+    text-align: center;
+    color: #e67e22;
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+  }
+  

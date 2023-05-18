@@ -1,0 +1,142 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* COLORS
+
+Main - #e67e22
+Accent -
+Grey - #343a40  #495057
+Tints - #fff2e8
+Shades - #cf711f
+
+*/
+
+/* FEATURED-IN--- STYLING */
+.featured {
+    width: 100rem;
+    margin: 3.2rem auto 1rem auto;
+    display: flex;
+    gap: 1.8rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .featured-img {
+    display: flex;
+    gap: 4rem;
+  }
+  .f-img {
+    height: 2.6rem;
+    filter: brightness(0);
+    opacity: 50%;
+  }
+  .f-title {
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  /* HOW IT WORKS--- STYLING */
+  
+  .how-it-works-section {
+    background-color: #fff;
+    max-width: 100%;
+  }
+  .how-it-works {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 8rem 2rem;
+    /* display: flex;
+    flex-direction: column;
+    gap: 6.4rem; */
+  }
+  .how-step-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 6.8rem;
+    row-gap: 6.8rem;
+  
+    align-items: center !important;
+    justify-items: center;
+  }
+  .step-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+  }
+  .how-img {
+    width: 35%;
+    z-index: 3;
+  }
+  .heading-secondary {
+    font-size: 3.4rem;
+    font-weight: 600;
+    color: #343a40;
+    background-color: #fff;
+    letter-spacing: 0.01rem;
+    margin-bottom: 6.4rem;
+  }
+  .tagline {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #cf711f;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    padding-bottom: 1.2rem;
+  }
+  .step-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .step-no {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #e6e6e6;
+  }
+  .heading-teritiary {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 0.6rem;
+  }
+  
+  .step-info {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #495057;
+    line-height: 1.5;
+  }
+  
+  .step-img::before,
+  .step-img::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .step-img::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fff2e8;
+    z-index: 1;
+  }
+  .step-img::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #f5e3d2;
+    z-index: 2;
+  }
+  
